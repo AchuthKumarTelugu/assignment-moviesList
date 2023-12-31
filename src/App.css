@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:1.5rem 2rem;
+    background-color: tomato;
+    color:white;
+    font-size: 1.5rem;
+}
+.movies-box{
+    padding:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.movie{
+    margin:1rem;
+}
+.card{
+    width:30rem;
+    height:20rem;
+}
+.app-movieDetails{
+    padding:1rem 1rem;
+}
+.movie-poster{
+    width:75%;
+    height: 90%;
+    box-shadow: 5px 5px 10px #888888;
+}
+.item1{
+    height:100%;
+    box-shadow: none !important;
+}
+.item2{
+    padding:2rem;
+    height:80%;
+}
+.app-movieDetails .item2{
+    text-align: left;
+    padding:3rem;
+}
+.app-movieDetails .item2 h2,.app-movieDetails .item2 h5 {
+text-align: center;
+}
+.app-movieDetails .item2 h2{
+    font-size:2rem;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app-movieDetails .item2 h5{
+    font-size:1rem;
+    color:black;
+    margin-bottom: 1.4rem;
+}
+.app-movieDetails .item2 p{
+  color:black;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.movie-info h6{
+ margin-bottom:0.5rem;
+ font-size: 1rem;
+}
